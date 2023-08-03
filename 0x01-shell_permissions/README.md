@@ -10,3 +10,4 @@ chmod ug+x,o+r; to add execution permission to user and group, and only read per
 chmod ugo+x: to add executable permission to the user, group and other users
 chmod 007: owner no permission, group no permission, other user  all permission
 chmod 753: all permission to owner,read and execute permission to group, execute permission to other users
+chmode --reference=olleh hello: mirrow command
