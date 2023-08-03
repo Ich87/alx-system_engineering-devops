@@ -2,3 +2,4 @@
 about permissions
 su betty: to switch the current user to betty
 whoami: to print effective username of current user
+groups: to print all the groups the current user is part of
