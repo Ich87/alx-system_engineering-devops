@@ -8,3 +8,4 @@ touch: to write and empty file eg touch hello
 chmod u+x: to add execution permission to a file
 chmod ug+x,o+r; to add execution permission to user and group, and only read permission to other users
 chmod ugo+x: to add executable permission to the user, group and other users
+chomd 007: owner no permission, group no permission, other user  all permission 
