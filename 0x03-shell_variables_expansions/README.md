@@ -13,7 +13,6 @@
 13.	echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" : Prints all possible combinations of two letters, except `oo`
 14.	printf "%.2f" $NUM | sort : Prints a number with two decimal places. The number is stored in the environment variable NUM
 15.	printf '%x\n' $DECIMAL : Converts a number from base 10 to base 16
-16.	tr 'A-Za-z' 'N-ZA-Mn-za-m' : Encodes and decodes text using the rot13 encryption
-17.	perl -lne 'print if $. % 2 ==1' : Prints every other line from the input, starting with the first line
-18.	echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol') : Adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result
+16.	tr 'A-Za-z' 'N-ZA-Mn-za-m' : Encodes and decodes text using the rot13 encryption perl -lne 'print if $. % 2 ==1' : Prints every other line from the input, starting with the first line
+17.	echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol') : Adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result
 
